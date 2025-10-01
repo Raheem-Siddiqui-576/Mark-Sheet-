@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo-sec{
+    position: relative;
+}
+.annual-examination{
+    font-size: 16px;
+    font-weight: 500;
+}
+.top-head{
+    width: 100% ;
+    position: absolute;
+    bottom: 80px;
+}
+.logo-sec-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center  !important;
+}
+.group-table tr td:nth-child(2){
+    padding-left: 10px;
+}
+.name-table tr td:nth-child(1){
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.name-table tr td:nth-child(2){
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.name-table img{
+    height: 100px !important;
+}
+.stud-img{
+    height: 150px !important;
+}
+.sub-table{
+width: 100%;
+text-transform: uppercase;
+text-align: center;
+font-weight: 500;
+margin-top: 50px;
+}
+.sub-table tr td:nth-child(1){
+    text-align: justify;
+    padding-left: 20px;
+}
+.sub-table td,.sub-table th{
+    border: 1px solid black;
+       height: 50px; 
+          width: 150px !important;
+ }
+ .per-sec td,.per-sec{
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 20px;
+}
+ .per-sec tr td:nth-child(2){
+    padding-left: 20px;
+    font-weight: 600; 
+}
+.sign-con{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;    
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px;
+}
+.sign-img{
+    height: 50px;
+}
+.mob{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+     
+    .logo{
+       height: 100px;
+    }
+    .annual-examination{
+        font-size: 10px;
+        line-height: 15px;
+        margin-left: 0px;
+      }
+      .mob{
+        display: block;
+      }
+      .lap{
+        display: none;
+
+      }
+      .top-head{
+    width: 100% ;
+    position: absolute;
+    bottom: 10px;
+   }
+   .group-table{
+    font-size: 10px;
+   }
+   .name-table tr td{
+    font-size: 13px !important;
+   }
+   .name-table tr td:nth-child(2){
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.sub-table tr , .sub-table tr th{
+    font-size: 10px;
+}
+.sign-con{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+
+}
+ .per-sec td,.per-sec{
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.sign-sec{
+    font-size: 10px;
+}
+.sign-img{
+    height: 20px;
+}
+
+.stud-img{
+    height: 100px;
+}
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width : 901px) {
+ .logo{
+       height: 100px;
+    }
+ .annual-examination{
+        font-size: 13px;
+        line-height: 15px;
+        margin-left: 0px;
+      }
+    .mob{
+        display: block;
+    }
+    .lap{
+        display: none;
+    }
+    .top-head{
+    width: 100% ;
+    position: absolute;
+    bottom: 10px;
+}
+.sub-table tr th{
+    font-size: 14px;
+}
+}
