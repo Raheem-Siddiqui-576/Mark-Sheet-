@@ -19,7 +19,7 @@ var total_Sub_Marks_loop = [eng_Marks , urdu_Marks , math_Marks , physics_Marks 
 var seatNo =+prompt("enter our seat no :-");
 var instituteName = prompt("Enter your institute name");
 var districtName = prompt("Enter your district name");
-var dateOfBirth = +prompt("enter your date of Birth");
+var dateOfBirth = prompt("enter your date of Birth");
 if( groupName == "1" ){
     alert("your selected Computer group \n YOur subject is :- \n English \n Urdu \n Math \n Physics \n Chemistry \n Computer \n Islamiat \n Pak Studies")
     com_Sci_Group = "COMPUTER";
