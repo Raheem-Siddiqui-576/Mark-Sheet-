@@ -1,4 +1,4 @@
-/*
+
 var date = +prompt("enter your date");
 var studentName = prompt("Enter your name");
 var fatherName = prompt("Enter your Father name");
@@ -66,7 +66,6 @@ else if(percentage>=0 && percentage<=39){
     grade = "FAIL";
     result = "Fail" ;
 }
-    */
 document.body.innerHTML =`
    <div class="container-fluid">
         <div class="container">
@@ -74,9 +73,8 @@ document.body.innerHTML =`
                 <div class="logo-sec">
                     <h5 class="text-center fw-bold text-wrap">BOARD OF INTERMEDIATE & SECONDARY EDUCATION HYDERABAD SINDH</h5>
                 <h5 class="text-center text-wrap">MARKS CERTIFICATE</h5>
-                <div class="top-head">
-                <h6 class="text-center text-uppercase text-wrap annual-examination">secondary school certificate <br class="mob"> part I & II <br class="lap"><br class="mob"> annual examination <br class="mob"> 2024  held in  the <br class="mob"> month of may 2024</h6>
-                </div>   
+                 <h6 class="text-center text-uppercase text-wrap annual-examination">secondary school certificate part I & II <br> annual examination  2024  held in  the  month of may 2024</h6>
+               
                 <div class="logo-sec-2">
                     <div class="logo-div">
                         <img src="assests/logo.png" class="logo">
@@ -98,6 +96,7 @@ document.body.innerHTML =`
            </div>
            <!-------Name-section--->
            <div class="row">
+          
              <div class="col-lg-12 col-12 d-flex justify-content-between align-items-center mt-5">
                 <table class="name-table">
                     <tr>
@@ -128,7 +127,7 @@ document.body.innerHTML =`
            </div>
            <!-------------subject marks section------->
            <div class="row">
-            <div class="col-lg-12 cSol-12">
+            <div class="col-lg-12 col-12">
                 <table border="1" class="sub-table">
                     <thead>
                         <tr>
@@ -231,5 +230,4 @@ document.body.innerHTML =`
            </div>
         </div>
     </div>
-    </div>
-    `
+    </div> `
