@@ -1,4 +1,4 @@
-
+/*
 var date = +prompt("enter your date");
 var studentName = prompt("Enter your name");
 var fatherName = prompt("Enter your Father name");
@@ -66,6 +66,7 @@ else if(percentage>=0 && percentage<=39){
     grade = "FAIL";
     result = "Fail" ;
 }
+    */
 document.body.innerHTML =`
    <div class="container-fluid">
         <div class="container">
